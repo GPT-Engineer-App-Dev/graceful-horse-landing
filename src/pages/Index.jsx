@@ -29,6 +29,22 @@ function Index() {
         </div>
       </section>
 
+      {/* Siberian Horse Section */}
+      <section id="siberian-horse" className="py-16 px-4 md:px-8 lg:px-16 bg-white">
+        <h2 className="text-3xl font-bold text-center">The Siberian Horse</h2>
+        <div className="mt-8 flex flex-col md:flex-row items-center">
+          <img src="/images/siberian-horse.jpg" alt="Siberian Horse" className="w-full md:w-1/2 rounded-lg shadow-lg" />
+          <div className="mt-8 md:mt-0 md:ml-8">
+            <p className="text-lg">
+              The Siberian horse, also known as the Yakutian horse, is a hardy breed native to the Siberian region of Russia. These horses are known for their ability to withstand extremely cold temperatures, often as low as -70°C.
+            </p>
+            <p className="mt-4 text-lg">
+              With a thick coat and a robust build, the Siberian horse is well-adapted to its harsh environment. They are used for riding, transportation, and agricultural work. Their calm and resilient nature makes them a valuable companion in the Siberian wilderness.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Gallery Section */}
       <section id="gallery" className="py-16 px-4 md:px-8 lg:px-16 bg-gray-100">
         <h2 className="text-3xl font-bold text-center">Gallery</h2>
